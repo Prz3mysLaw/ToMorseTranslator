@@ -22,7 +22,7 @@ public class PlainTextToMorseTranslator implements MorseTranslator {
             }
             i++;
             if (i <= tokens.length) {
-                translatedText.append("/");
+                translatedText.append("/ ");
             }
         }
 
